@@ -1,0 +1,60 @@
+{
+	"name": "app",
+	"version": "0.0.1",
+	"description": "",
+	"repository": {
+		"private": true
+	},
+	"main": "app/index",
+	"author": "",
+	"license": "MIT",
+	"dependencies": {
+		"@hapi/joi": "^16.0.1",
+		"botbusiness": "https://github.com/jxiaoju/botbusiness.git",
+		"botservice": "https://github.com/jxiaoju/botservice.git",
+		"body-parser": "^1.18.3",
+		"compression": "^1.7.4",
+		"date-fns": "^2.0.1",
+		"dynogels": "^9.1.0",
+		"es6-template-strings": "^2.0.1",
+		"express": "^4.16.4",
+		"hbs": "^4.0.4",
+		"randomatic": "^3.1.1",
+		"request": "^2.88.0",
+		"serverless-http": "^2.0.1",
+		"sleep": "^6.1.0"
+	},
+	"scripts": {
+		"ui-test": "node ./tests/ui/index.js",
+		"test": "mocha ./tests/case/*.js --silent",
+		"env": "npm-run-all remove-db install-db -p start-db create-table",
+		"create-table": "sleep 10 && npm run create-table:basic",
+		"create-table:basic": "node ./_scripts/createTable.js",
+		"remove-table": "node ./_scripts/removeTable.js",
+		"create-data": "node ./_scripts/create.js",
+		"scan-data": "node ./_scripts/scan.js",
+		"query-data": "node ./_scripts/query.js",
+		"delete-data": "node ./_scripts/delete.js",
+		"install-db": "sls dynamodb install",
+		"start-db": "node ./_scripts/startDb.js",
+		"remove-db": "node ./_scripts/removeDb.js",
+		"start": "npm-run-all -p start:backend start:frontend",
+		"start:frontend": "cd static && npm run start",
+		"start:backend": "sls offline --stage local",
+		"start-static": "cd static && npm run start",
+		"build-static": "cd static && npm run build"
+	},
+	"devDependencies": {
+		"aws-sdk": "^2.422.0",
+		"chai": "^4.2.0",
+		"chai-http": "^4.3.0",
+		"fs-extra": "^8.1.0",
+		"mocha": "^6.2.0",
+		"npm-run-all": "^4.1.5",
+		"selenium-webdriver": "^4.0.0-alpha.4",
+		"serverless": "^1.40.0",
+		"serverless-dynamodb-local": "0.2.37",
+		"serverless-offline": "^4.10.0",
+		"wait-on": "^3.3.0"
+	}
+}

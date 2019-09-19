@@ -1,0 +1,45 @@
+.configNotifications{
+
+
+&-channel-label{
+  color:#2D8CFF;
+}
+
+&-select{
+    width:100%;
+}
+
+&-content {
+    margin-top: 60px;
+    max-width:800px;
+    margin-left:auto;
+    margin-right:auto;
+  }
+  &-form{
+      margin-top:20px;
+  }
+  &-submit{
+      margin-top:20px;
+      float:right;
+  }
+  &-form-input{
+    // flex:1;
+  }
+  &-form-label{
+    // width:80px;
+    margin-left:3px;
+    margin-bottom:3px;
+    display: inline-block;
+  }
+  &-form-item {
+    margin-bottom:14px;
+    width:100%;
+    
+    label {
+      margin-top: 3px;
+      display:inline-block;
+    }
+  }
+
+
+}

@@ -1,0 +1,41 @@
+[
+  {
+    "table": "zoom",
+    "data": {
+      "createdAt": "2019-08-12T15:25:23.540Z",
+      "zoom_refresh_token": "eyJhbGciOiJIUzUxMiJ9.eyJ2ZXIiOiI0IiwiY2xpZW50SWQiOiJwSGpzSHB5N1FCQ19qX1hVV1FUN3pRIiwiaXNzIjoidXJuOnpvb206Y29ubmVjdDpjbGllbnRpZDpwSGpzSHB5N1FCQ19qX1hVV1FUN3pRIiwiYXV0aGVudGljYXRpb25JZCI6IjYxZTkzZjIyYTBhNDA2M2FjZjUzZmFjYzM0M2MxMDk2IiwiZW52IjpbbnVsbF0sInVzZXJJZCI6Im5oWVhZaVR6U1lXZjRtTTNaTzRfZHciLCJhdWQiOiJodHRwczovL29hdXRoLnpvb20udXMiLCJuYmYiOjE1NjU2MjM1MjIsImV4cCI6MjAzODY2MzUyMiwidG9rZW5UeXBlIjoicmVmcmVzaF90b2tlbiIsImlhdCI6MTU2NTYyMzUyMiwianRpIjoiYzhiYTQwZjQtNzE2Ni00ZDE4LWIyNzgtYTU4NThhMzg3OTk4IiwidG9sZXJhbmNlSWQiOjB9.Px8KG6uEUwjJe3vXRDXSV7wAP5eiXW4Tdyq80mVwWAuUGqSOEl6_aAeVLCr9kqGFNyA6yvQQSvR0geTfhNHYcQ",
+      "zoom_account_id": "GWuf71OyQVqS1MB_yAWsVg",
+      "zoom_user_type": "account",
+      "zoom_expires_date": "2019-08-12T16:10:22.538Z",
+      "zoom_access_token": "eyJhbGciOiJIUzUxMiJ9.eyJ2ZXIiOiI0IiwiY2xpZW50SWQiOiJwSGpzSHB5N1FCQ19qX1hVV1FUN3pRIiwiaXNzIjoidXJuOnpvb206Y29ubmVjdDpjbGllbnRpZDpwSGpzSHB5N1FCQ19qX1hVV1FUN3pRIiwiYXV0aGVudGljYXRpb25JZCI6IjYxZTkzZjIyYTBhNDA2M2FjZjUzZmFjYzM0M2MxMDk2IiwiZW52IjpbbnVsbF0sInVzZXJJZCI6Im5oWVhZaVR6U1lXZjRtTTNaTzRfZHciLCJhdWQiOiJodHRwczovL29hdXRoLnpvb20udXMiLCJhY2NvdW50SWQiOiJHV3VmNzFPeVFWcVMxTUJfeUFXc1ZnIiwibmJmIjoxNTY1NjIzNTIyLCJleHAiOjE1NjU2MjcxMjIsInRva2VuVHlwZSI6ImFjY2Vzc190b2tlbiIsImlhdCI6MTU2NTYyMzUyMiwianRpIjoiYzcwMGRlMjMtNjcxYy00NGU0LTg5ZTMtNzcyOGJiNTkzMGE5IiwidG9sZXJhbmNlSWQiOjB9.QUvme5pv2C40hTAp--wbhw_hPQOe0HWwIE5T_qIBsQRCwcBnj12reve46jpUBdRIiM2E609_-EMF0nkWsaTYjw",
+      "zoom_origin_user_id": "nhYXYiTzSYWf4mM3ZO4_dw",
+      "zoom_user_id": "account",
+      "uuid": "e7a07b96-69ec-5015-b259-6390bdb8a80d"
+    }
+  },
+  {
+    "table": "webhook",
+    "data": {
+      "createdAt": "2019-08-12T16:34:06.938Z",
+      "zoom_account_id": "GWuf71OyQVqS1MB_yAWsVg",
+      "zoom_channel_id": "9bceec09666a43d49a0bb5bd55957788@conference.xmpp.zoom.us",
+      "zoom_channel_name": "botTest",
+      "zoom_user_id": "nhYXYiTzSYWf4mM3ZO4_dw",
+      "zoom_channel_type": "group",
+      "uuid": "bfb3e949-583c-588b-aac9-3a796b1ff87e",
+      "zoom_user_id_uuid": "5661c6b3-a431-584a-b9e8-284cc93646f4"
+    }
+  },
+  {
+    "table": "webhook",
+    "data": {
+      "createdAt": "2019-08-12T15:27:25.271Z",
+      "zoom_account_id": "GWuf71OyQVqS1MB_yAWsVg",
+      "zoom_channel_id": "nhyxyitzsywf4mm3zo4_dw@xmpp.zoom.us",
+      "zoom_channel_name": "otis shou dev",
+      "zoom_user_id": "nhYXYiTzSYWf4mM3ZO4_dw",
+      "uuid": "bfb3e949-583c-588b-aac9-3a796b1ff87e",
+      "zoom_user_id_uuid": "5661c6b3-a431-584a-b9e8-284cc93646f4"
+    }
+  }
+]

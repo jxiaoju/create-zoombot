@@ -1,0 +1,20 @@
+{
+	"app": "app",
+	"timeout": 10,
+	"exclude": [
+		"./static/**",
+		"./.dynamodb/**"
+	],
+	"environment": {
+		"zoomClientId": "",
+		"zoomClientSecret": "",
+		"zoomRedirect_uri": "",
+		"zoomVerifyCode": "",
+		"zoomBotJid": "",
+		"app": "app",
+		"NODE_ENV": "production"
+	},
+	"stages": {
+		"static": true
+	}
+}

@@ -1,0 +1,10 @@
+[
+  {
+    "table": "webhook",
+    "data": {
+      "newrelic_id": "bbb",
+      "zoom_user_id": "555",
+      "zoom_channel_id":"kog"
+    }
+  }
+]

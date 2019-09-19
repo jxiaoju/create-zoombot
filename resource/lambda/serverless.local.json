@@ -1,0 +1,37 @@
+{
+	"app": "app",
+	"bucket": "",
+	"region": "us-east-1",
+	"role": "",
+	"serverless-offline": {
+		"port": 3000
+	},
+	"static": {
+		"port": 3003
+	},
+	"timeout": 10,
+	"exclude": [
+		"./static/**",
+		"./.dynamodb/**",
+		"./scripts/**",
+		"./mock/**"
+	],
+	"environment": {
+		"uuidNamespace":"",
+		"zoomClientId": "",
+		"zoomClientSecret": "",
+		"zoomRedirect_uri": "",
+		"zoomVerifyCode": "",
+		"zoomBotJid": "",
+		"app": "app",
+		"NODE_ENV": "local",
+		"zoomTable":"",
+		"webhookTable":"",
+		"relationshipTable": "",
+		"tableRegion":"us-east-1",
+		"staticPort": 3003
+	},
+	"stages": {
+		"static": true
+	}
+}

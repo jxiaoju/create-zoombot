@@ -1,0 +1,9 @@
+.create-form {
+  &-error {
+    color: #e02828;
+    font-size: 12px;
+    font-style: italic;
+    display: inline-block;
+    padding-top: 8px;
+  }
+}

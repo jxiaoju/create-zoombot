@@ -1,0 +1,20 @@
+[
+  {
+    "table": "topLevel",
+    "data": {
+      "createdAt": "2019-06-16T11:29:45.517Z",
+      "accessToken": "kog",
+      "userId": "bbb",
+      "uuid": "259e7012-83c4-4282-8451-6c2dd3ca858f",
+      "zoomAccountId": "aaa"
+    }
+  },
+  {
+    "table": "webhook",
+    "data": {
+      "createdAt": "2019-06-16T11:29:45.560Z",
+      "newrelicAccountId": "relicuser",
+      "zoomAccountId": "aaa"
+    }
+  }
+]

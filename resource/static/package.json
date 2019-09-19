@@ -1,0 +1,24 @@
+{
+	"name": "zoomtemplate",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "node ./@env/dev.js",
+		"build": "node ./@env/prod.js"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"antd": "^3.16.6",
+		"axios": "^0.18.0",
+		"es6-template-strings": "^2.0.1",
+		"json-to-ast": "^2.1.0",
+		"rc-class": "^0.1.2",
+		"react-select": "^3.0.4"
+	},
+	"devDependencies": {
+		"quick-react-webpack": "^1.0.8"
+	}
+}

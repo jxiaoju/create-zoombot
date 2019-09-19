@@ -1,0 +1,39 @@
+
+.copy{
+
+&-copy-text {
+    display: inline-block;
+    cursor: pointer;
+    font-size: 14px;
+    letter-spacing:1px;
+    color: #0E71EB;
+    font-weight:bold;
+    font-family:"open sans";
+    line-height:15px;
+}
+
+.icon {
+    display: inline-block;
+    vertical-align: super;
+    margin: 0px 5px;
+}
+
+.icon-hook {
+    width: 8px;
+    height: 4px;
+}
+
+.pop-info {
+    position: fixed;
+    top: 10px;
+    left: 50%;
+    transform: translate(-50%, 0px);
+    border-radius: 4px;
+    padding: 10px 16px;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 4px 12px rgba(0, 0, 0, .15);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, .15);
+    background: #fff;
+}
+
+}

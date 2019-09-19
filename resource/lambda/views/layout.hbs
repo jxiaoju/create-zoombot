@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="theme-color" content="#000000">
+  <link rel="shortcut icon" href="//ruanshi2.8686c.com/zoom.ico">
+  <title>{{app}}</title>
+   {{#ifEquals env 'local'}}
+  <link rel="stylesheet" href="http://localhost:{{staticPort}}/css/main.css">
+  {{else}}
+  <link rel="stylesheet" href="/{{app}}/css/main.css">
+  <link rel="stylesheet" href="/{{app}}/css/vendors~main.css">
+   {{/ifEquals}}
+</head>
+
+
+
+<body>
+  {{{block "jsvar"}}}
+  <div id="root"></div>
+    {{{block "scripts"}}}
+  {{#ifEquals env 'local'}}
+  <script src='http://localhost:{{staticPort}}/scripts/main.js'></script>
+  {{else}}
+  <script src='/{{app}}/scripts/vendors~main.chunk.js'></script>
+  <script src='/{{app}}/scripts/react-dom.chunk.js'></script>
+  <script src='/{{app}}/scripts/antd.chunk.js'></script>
+  <script src='/{{app}}/scripts/main.js'></script>
+  {{/ifEquals}}
+</body>
+</html>
