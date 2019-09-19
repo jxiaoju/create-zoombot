@@ -2,7 +2,7 @@
 const express = require('express');
 const nodepath = require('path');
 let expressApp = require('./expressApp');
-let botbusiness = require('../../botBusiness/src/index');
+let botbusiness = require('botBusiness/src/index');
 // let botbusiness = require('@zoom/botBusiness/src/index');
 let botConfig = require('../botConfig');
 let runStatic = require('./static');

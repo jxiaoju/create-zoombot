@@ -5,7 +5,7 @@ let localJons=fs.readJsonSync(nodepath.resolve('./serverless.local.json'));
 let env=localJons.environment;
 let envPort=env.dynamodbPort?env.dynamodbPort:8089;
 let botConfig = require('../botConfig');
-let getService=require('@zoom/botbusiness/src/getService');
+let getService=require('botbusiness/src/getService');
 
 
 for(let i in env){
